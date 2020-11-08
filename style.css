@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.lg {
+    font-size: 40px;
+}
+
+#hosting {
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(197, 196, 193);
+}
+
+#hosting > tbody > tr:first-child > td {
+    background-color: rgb(226, 226, 225);
+    color: red;
+    height: 55px;
+    border-bottom: none;
+    vertical-align: bottom;
+}
+
+#hosting > tbody > tr:first-child > td > a {
+    vertical-align: top;
+}
+
+#hosting > tbody > tr:nth-of-type(2) > td {
+    border-top: none;
+    background-color: rgb(226, 226, 225);
+    vertical-align: top;
+    font-size: small;
+}
+
+#hosting > tbody > tr:last-child > td {
+    background-color: rgb(226, 226, 225);
+    height: 45px;
+}
+
+#hosting > tbody > tr:nth-of-type(6) {
+    color: red;
+}
+
+#hosting > tbody > tr:nth-of-type(7) {
+    color: red;
+}
+
+#hosting > tbody > tr:nth-of-type(8) {
+    color: red;
+}
+
+#hosting > thead {
+    background-color: rgb(197, 196, 193);
+}
+
+#hosting > thead > tr > th {
+    height: 45px;
+    color: rgb(80, 70, 70);
+    padding: 0;
+}
+
+#hosting > tbody > tr {
+    border-right: 1px solid rgb(197, 196, 193);
+}
+
+#hosting > tbody > tr > td {
+    border: 1px solid rgb(197, 196, 193);
+    height: 35px;
+    width: 150px;
+    color: rgb(80, 70, 70);
+    padding: 0;
+}
+
+/* #hosting > tbody > tr > td:nth-of-type(3) {
+    box-shadow: 3px 0px 0px 0px  black;
+    z-index: 100;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+} */
+
+button {
+    border: 1px solid rgb(197, 196, 193);
+    padding: 7px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(1, 136, 12);
+    color: white;
+}
+
+#choice {
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    
+    
+}
+
+#choice:hover {
+    transform: scale(1.1);
+    border: 1px solid red;
+    box-shadow: 2px 2px 15px 0 rgb(99, 99, 99),
+                -2px -2px 15px 0 rgb(99, 99, 99);
+}
